@@ -11,11 +11,11 @@ eASTD is the editor for ASTD specifications.  It is written in Javascript and ru
 
 - <spec-name>.json : it contains the ASTD specification in the format required by cASTD, the ASTD compiler. 
 
-## Dependencies eASTD
+### Dependencies eASTD
 
 Node.js 
 
-## Installation eASTD
+### Installation eASTD
 
 1. Download eastd.zip and unzip it 
 
@@ -23,15 +23,15 @@ Node.js
 
 3. Run command “npm install”  
 
-## Run eASTD 
+### Run eASTD 
 
 1. Run command “npm start” from the unzipped directory eASTD-master 
 
-# cASTD 
+## cASTD 
 
 cASTD is the compiler for ASTD specifications.  It is written in Java and it generates C++ programs. It takes as input an ASTD specification file “<spec-name>.json” produced by eASTD when an eASTD specification is saved. 
 
-## Dependencies cASTD
+### Dependencies cASTD
 
 - Java : at least JDK 1.8 (i.e., Jave SE 8 or later) 
 
@@ -54,11 +54,11 @@ choco install make
 
   - Available with MSYS2 https://www.mingw-w64.org/downloads/#msys2 
 
-## Installation cASTD
+### Installation cASTD
 
 1. Download castd.jar in some directory <dir> 
 
-## Run cASTD 
+### Run cASTD 
 
 1. Run command: java -jar \<dir\>/castd.jar -s <spec-name>.json  -o <output-dir>
    1. It will produce in <output-dir> 
