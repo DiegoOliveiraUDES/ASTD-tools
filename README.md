@@ -23,7 +23,7 @@ Node.js
 
 3. Run command “npm install”  
 
-##Run eASTD 
+## Run eASTD 
 
 1. Run command “npm start” from the unzipped directory eASTD-master 
 
@@ -41,7 +41,7 @@ cASTD is the compiler for ASTD specifications.  It is written in Java and it gen
 
   - Windows: use https://www.mingw-w64.org/ or  https://www.cygwin.com/ 
 
--Make utility 
+- Make utility 
 
   - Windows: 
 
