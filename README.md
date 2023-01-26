@@ -7,9 +7,9 @@ ASTD support tools
 
 eASTD is the editor for ASTD specifications.  It is written in Javascript and runs on most operating systems using the Electron platform. An ASTD specification is saved in two files 
 
-<spec-name>.eastd : it contains the detailed json representation of the ASTD specification. 
+- <spec-name>.eastd : it contains the detailed json representation of the ASTD specification. 
 
-<spec-name>.json : it contains the ASTD specification in the format required by cASTD, the ASTD compiler. 
+- <spec-name>.json : it contains the ASTD specification in the format required by cASTD, the ASTD compiler. 
 
 ## Dependencies eASTD
 
@@ -17,11 +17,11 @@ Node.js
 
 ## Installation eASTD
 
-Download eastd.zip and unzip it 
+1. Download eastd.zip and unzip it 
 
-Start a terminal in the unzipped directory eASTD-master 
+2. Start a terminal in the unzipped directory eASTD-master 
 
-Run command “npm install”  
+3. Run command “npm install”  
 
 ##Run eASTD 
 
