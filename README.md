@@ -61,6 +61,7 @@ choco install make
 ## Run cASTD 
 
 1. Run command: java -jar \<dir\>/castd.jar -s <spec-name>.json  -o <output-dir>
+  
   a. It will produce in <output-dir> 
     i. <A>.cpp : the C++ source code implementing the first top level ASTD found in the ASTD specification, denoted here by <A>. 
       1. Use option -m to choose another top-level ASTD 
