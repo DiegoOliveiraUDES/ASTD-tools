@@ -23,25 +23,15 @@ Start a terminal in the unzipped directory eASTD-master
 
 Run command “npm install”  
 
- 
-
-Run eASTD 
-
- 
+#Run eASTD 
 
 Run command “npm start” from the unzipped directory eASTD-master 
 
- 
-
-cASTD 
-
- 
+#cASTD 
 
 cASTD is the compiler for ASTD specifications.  It is written in Java and it generates C++ programs. It takes as input an ASTD specification file “<spec-name>.json” produced by eASTD when an eASTD specification is saved. 
 
- 
-
-Dependencies 
+# #Dependencies cASTD
 
  
 
