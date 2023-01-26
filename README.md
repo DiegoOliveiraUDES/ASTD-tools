@@ -3,7 +3,7 @@ ASTD support tools
 
 #Installation of eASTD and cASTD 
 
-# eASTD 
+## eASTD 
 
 eASTD is the editor for ASTD specifications.  It is written in Javascript and runs on most operating systems using the Electron platform. An ASTD specification is saved in two files 
 
@@ -11,11 +11,11 @@ eASTD is the editor for ASTD specifications.  It is written in Javascript and ru
 
 <spec-name>.json : it contains the ASTD specification in the format required by cASTD, the ASTD compiler. 
 
-# Dependencies eASTD
+## Dependencies eASTD
 
 Node.js 
 
-# Installation eASTD
+## Installation eASTD
 
 Download eastd.zip and unzip it 
 
@@ -23,17 +23,15 @@ Start a terminal in the unzipped directory eASTD-master
 
 Run command “npm install”  
 
-#Run eASTD 
+##Run eASTD 
 
 Run command “npm start” from the unzipped directory eASTD-master 
 
-#cASTD 
+# cASTD 
 
 cASTD is the compiler for ASTD specifications.  It is written in Java and it generates C++ programs. It takes as input an ASTD specification file “<spec-name>.json” produced by eASTD when an eASTD specification is saved. 
 
-# #Dependencies cASTD
-
- 
+## Dependencies cASTD
 
 Java : at least JDK 1.8 (i.e., Jave SE 8 or later) 
 
@@ -51,19 +49,17 @@ The simplest choice is using Chocolatey. First you need to install this package 
 
 choco install make 
  
-
 Pthreads lib for windows users. 
 
 Available with MinGW https://sourceforge.net/projects/mingw/ 
 
 Available with MSYS2 https://www.mingw-w64.org/downloads/#msys2 
 
- 
-Installation 
+## Installation cASTD
 
 Download castd.jar in some directory <dir> 
 
-Run cASTD 
+## Run cASTD 
 
 Run command “java -jar <dir>/castd.jar -s <spec-name>.json  -o <output-dir>” 
 
@@ -78,5 +74,3 @@ Use option -m to choose another top-level ASTD
 You can run the generated program by executing “<A>” in a terminal. 
 
 Run command “java -jar <dir>/castd.jar -h” to get a full list of cASTD options 
-
- 
