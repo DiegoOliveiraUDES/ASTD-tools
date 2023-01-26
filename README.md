@@ -25,7 +25,7 @@ Node.js
 
 ##Run eASTD 
 
-Run command “npm start” from the unzipped directory eASTD-master 
+1. Run command “npm start” from the unzipped directory eASTD-master 
 
 # cASTD 
 
@@ -33,44 +33,38 @@ cASTD is the compiler for ASTD specifications.  It is written in Java and it gen
 
 ## Dependencies cASTD
 
-Java : at least JDK 1.8 (i.e., Jave SE 8 or later) 
+- Java : at least JDK 1.8 (i.e., Jave SE 8 or later) 
 
-C++ compiler v11 or later, than can be run as command “g++” 
+- C++ compiler v11 or later, than can be run as command “g++” 
 
-MAC OS: use clang from Xcode or Brew 
+  - MAC OS: use clang from Xcode or Brew 
 
-Windows: use https://www.mingw-w64.org/ or  https://www.cygwin.com/ 
+  - Windows: use https://www.mingw-w64.org/ or  https://www.cygwin.com/ 
 
-Make utility 
+-Make utility 
 
-Windows: 
+  - Windows: 
 
-The simplest choice is using Chocolatey. First you need to install this package manager. Once installed you simply need to install make (you may need to run it in an elevated/admin command prompt): 
-
+    - The simplest choice is using Chocolatey. First you need to install this package manager. Once installed you simply need to install make (you may need to run it in an elevated/admin command prompt): 
 choco install make 
  
-Pthreads lib for windows users. 
+- Pthreads lib for windows users. 
 
-Available with MinGW https://sourceforge.net/projects/mingw/ 
+  - Available with MinGW https://sourceforge.net/projects/mingw/ 
 
-Available with MSYS2 https://www.mingw-w64.org/downloads/#msys2 
+  - Available with MSYS2 https://www.mingw-w64.org/downloads/#msys2 
 
 ## Installation cASTD
 
-Download castd.jar in some directory <dir> 
+1. Download castd.jar in some directory <dir> 
 
 ## Run cASTD 
 
-Run command “java -jar <dir>/castd.jar -s <spec-name>.json  -o <output-dir>” 
+1. Run command “java -jar <dir>/castd.jar -s <spec-name>.json  -o <output-dir>” 
+  a. It will produce in <output-dir> 
+    i. <A>.cpp : the C++ source code implementing the first top level ASTD found in the ASTD specification, denoted here by <A>. 
+      1. Use option -m to choose another top-level ASTD 
 
-It will produce in <output-dir> 
-
-<A>.cpp : the C++ source code implementing the first top level ASTD found in the ASTD specification, denoted here by <A>. 
-
-Use option -m to choose another top-level ASTD 
-
-<A> : the compiled and linked version of <A>.cpp 
-
-You can run the generated program by executing “<A>” in a terminal. 
-
-Run command “java -jar <dir>/castd.jar -h” to get a full list of cASTD options 
+    ii. <A> : the compiled and linked version of <A>.cpp 
+  b. You can run the generated program by executing “<A>” in a terminal. 
+2. Run command “java -jar <dir>/castd.jar -h” to get a full list of cASTD options 
