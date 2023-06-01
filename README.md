@@ -35,7 +35,7 @@ cASTD is the compiler for ASTD specifications.  It is written in Java and it gen
 
 - Java : at least JDK 1.8 (i.e., Jave SE 8 or later) 
 
-- C++ compiler v11 or later, than can be run as command “g++” 
+- C++ compiler v14 or later, than can be run as command “g++” 
 
   - MAC OS: use clang from Xcode or Brew 
 
